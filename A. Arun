@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun's Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .contact a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .skills, .languages, .awards, .leadership {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li, .languages li, .awards li, .leadership li {
+            background: #e4e4e4;
+            margin: 5px 0;
+            padding: 8px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>A. ARUN</h1>
+        <h2>Student</h2>
+        
+        <div class="section contact">
+            <p>📞 <a href="tel:+9361443272">9361443272</a></p>
+            <p>✉️ <a href="mailto:arun989418@gmail.com">arun989418@gmail.com</a></p>
+        </div>
+        
+        <div class="section education">
+            <h2>Education</h2>
+            <p><strong>University</strong> (2023 - 2026)</p>
+            <p>B.Sc (Computer Science)</p>
+        </div>
+        
+        <div class="section awards">
+            <h2>Awards & Certifications</h2>
+            <ul>
+                <li>Code Hackathon</li>
+                <li>English Communication</li>
+            </ul>
+        </div>
+        
+        <div class="section languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>Tamil</li>
+            </ul>
+        </div>
+        
+        <div class="section profile">
+            <h2>Profile</h2>
+            <p>Arun is a curious and dedicated student with a passion for computer science. Always eager to explore new technologies, thrives as a good learner, constantly seeking to develop skills and deepen knowledge in programming and technology-driven projects.</p>
+        </div>
+        
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Active Listening & Collaboration:</strong> Strong listener, capable of understanding diverse perspectives and building meaningful relationships with team members.</li>
+                <li><strong>Technical Proficiency:</strong> Well-versed in program comprehension and problem-solving in software development contexts.</li>
+                <li><strong>Event Coordination:</strong> Proven ability to organize departmental activities and events, balancing multiple responsibilities effectively.</li>
+            </ul>
+        </div>
+        
+        <div class="section leadership">
+            <h2>Leadership</h2>
+            <ul>
+                <li><strong>Computer Science Department Sports Coordinator (Second Year):</strong> Organized and conducted programs.</li>
+                <li><strong>System Coordinator:</strong> Actively contributed to social service initiatives and community development projects.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
